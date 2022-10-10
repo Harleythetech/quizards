@@ -31,7 +31,7 @@
 - Vince Andrei Sales
 - Vincent Harley R. Jovellano (@Harleythetech - Developer of the app)
 > Contributor (Special thanks to)
-- John Dave Natividad (@Jaseunda)
+- John Dave Natividad (@Jaseunda - Helped with development of the app)
 
 ```
   For Removal of content please contact me through the following
