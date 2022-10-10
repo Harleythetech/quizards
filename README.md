@@ -5,6 +5,8 @@
 <h4>Warning: This app is on still on Experimental stage. Meaning the app is not stable and we are not in anyway liable to any damages done by this app as you agree to use this app even tho it's still in Experimental stage</h4>
 
 # Documentation
+> APK Download (Testing Purposes Only)
+- Coming Soon
 > Minimum Requirements
 - API level 21 
 - Android 5.0 (Initial Release)
