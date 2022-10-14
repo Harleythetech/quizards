@@ -43,7 +43,7 @@ public class inputdisp extends Activity {
             jshared.edit().putString("quizname", quizname.getText().toString()).commit();
             jshared.edit().putString("desc", desc.getText().toString()).commit();
             jshared.edit().putString("amount", amount.getText().toString()).commit();
-            Intent intent = new Intent(inputdisp.this, answerscrn.class);
+            Intent intent = new Intent(inputdisp.this, question.class);
             startActivity(intent);
         });
     }

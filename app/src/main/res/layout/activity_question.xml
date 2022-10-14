@@ -125,7 +125,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/inop"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="match_parent"
                     android:background="@drawable/input"
                     android:textAlignment="textStart"
                     android:textColor="@color/white"

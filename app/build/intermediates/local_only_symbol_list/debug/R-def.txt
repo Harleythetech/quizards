@@ -36,9 +36,11 @@ id gifImageView2
 id imageView
 id imageView2
 id imageView3
+id inop
 id linearLayout
 id quizname
 id text
+id text1
 id textView
 id textView1
 id textView2

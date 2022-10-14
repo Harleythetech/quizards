@@ -81,7 +81,7 @@
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/text"
+                    android:id="@+id/text1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="200dp"
@@ -123,6 +123,7 @@
                 tools:visibility="visible">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inop"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:background="@drawable/input"
@@ -164,6 +165,7 @@
                 tools:visibility="visible">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ans"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/input"

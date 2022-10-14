@@ -39,6 +39,7 @@ public class answerscrn extends Activity {
     private void initializeLogic() {
         amount.setText(jshared.getString("amount", ""));
         text.setText(jshared.getString("question", ""));
+
     }
 
 

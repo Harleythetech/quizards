@@ -2772,6 +2772,7 @@ id imageView3
 id immediateStop
 id included
 id info
+id inop
 id invisible
 id inward
 id italic
@@ -2977,6 +2978,7 @@ id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
+id text1
 id text2
 id textEnd
 id textSpacerNoButtons

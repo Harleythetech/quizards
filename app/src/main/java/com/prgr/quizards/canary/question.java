@@ -6,21 +6,26 @@ import android.os.Bundle;
 import android.util.SparseBooleanArray;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.widget.AppCompatButton;
+
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Random;
 
 public class question extends Activity {
 
-
+    private HashMap<String, Object> map = new HashMap<>();
     private TextView text;
-    private TextInputEditText inop;
+    private EditText inop;
     private TextInputEditText ans;
+    private AppCompatButton btn;
 
     private SharedPreferences jshared;
 
@@ -33,10 +38,11 @@ public class question extends Activity {
     }
 
     private void initialize(Bundle _savedInstanceState) {
+        btn = findViewById(R.id.button);
         inop = findViewById(R.id.inop);
         ans = findViewById(R.id.ans);
         text = findViewById(R.id.text);
-        jshared = getSharedPreferences("jshared", Activity.MODE_PRIVATE);
+        jshared = getSharedPreferences("j", Activity.MODE_PRIVATE);
 
     }
 
@@ -44,6 +50,13 @@ public class question extends Activity {
         text.setText(jshared.getString("amount", ""));
         jshared.edit().putString("question", inop.getText().toString()).commit();
         jshared.edit().putString("answer", ans.getText().toString()).commit();
+        btn.setOnClickListener(_view -> {
+            map = new HashMap<>();
+            map.put("question", inop.getText().toString());
+            map.put("answer", ans.getText().toString());
+            map.put("amount", jshared.getString("amount", "").concat(""));
+        });
+
     }
 
 

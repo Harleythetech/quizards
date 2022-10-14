@@ -2771,6 +2771,7 @@ int id imageView3 0x7f0800ea
 int id immediateStop 0x7f0800eb
 int id included 0x7f0800ec
 int id info 0x7f0800ed
+int id inop 0x7f0801fb
 int id invisible 0x7f0800ee
 int id inward 0x7f0800ef
 int id italic 0x7f0800f0
@@ -2976,6 +2977,7 @@ int id test_checkbox_app_button_tint 0x7f0801b7
 int id test_radiobutton_android_button_tint 0x7f0801b8
 int id test_radiobutton_app_button_tint 0x7f0801b9
 int id text 0x7f0801ba
+int id text1 0x7f0801fc
 int id text2 0x7f0801bb
 int id textEnd 0x7f0801bc
 int id textSpacerNoButtons 0x7f0801bd
