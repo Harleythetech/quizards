@@ -19,4 +19,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Deprecated
+    public int getDisplayWidthPixels() {
+        return getResources().getDisplayMetrics().widthPixels;
+    }
+
+    @Deprecated
+    public int getDisplayHeightPixels() {
+        return getResources().getDisplayMetrics().heightPixels;
+    }
 }

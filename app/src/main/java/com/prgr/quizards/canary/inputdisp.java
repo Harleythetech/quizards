@@ -1,72 +1,50 @@
 package com.prgr.quizards.canary;
 
 import android.app.Activity;
-import android.app.*;
-import android.os.*;
-import android.view.*;
-import android.view.View.*;
-import android.widget.*;
-import android.content.*;
-import android.content.res.*;
-import android.graphics.*;
-import android.graphics.drawable.*;
-import android.media.*;
-import android.net.*;
-import android.text.*;
-import android.text.style.*;
-import android.util.*;
-import android.webkit.*;
-import android.animation.*;
-import android.view.animation.*;
-import java.io.*;
-import java.util.*;
-import java.util.regex.*;
-import java.text.*;
-import org.json.*;
-import android.widget.EditText;
-import android.widget.Button;
-import android.widget.LinearLayout;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.util.SparseBooleanArray;
+import android.util.TypedValue;
 import android.view.View;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.DialogFragment;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 public class inputdisp extends Activity {
 
     private EditText quizname;
     private EditText desc;
     private EditText amount;
-    private Button button;
 
 
     private SharedPreferences jshared;
-    private Intent intent = new Intent();
 
     @Override
     protected void onCreate(Bundle _savedInstanceState) {
         super.onCreate(_savedInstanceState);
         setContentView(R.layout.activity_inputdisp);
-        initialize(_savedInstanceState);
+        initialize();
         initializeLogic();
     }
 
-    private void initialize(Bundle _savedInstanceState) {
+    private void initialize() {
         quizname = findViewById(R.id.quizname);
         desc = findViewById(R.id.desc);
         amount = findViewById(R.id.amount);
-        button = findViewById(R.id.button);
+        Button button = findViewById(R.id.button);
         jshared = getSharedPreferences("j", Activity.MODE_PRIVATE);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View _view) {
-                jshared.edit().putString("quizname", quizname.getText().toString()).commit();
-                jshared.edit().putString("desc", desc.getText().toString()).commit();
-                jshared.edit().putString("amount", amount.getText().toString()).commit();
-                getIntent().setClass(getApplicationContext(), question.class);
-                        startActivity(intent);
-            }
+        button.setOnClickListener(_view -> {
+            jshared.edit().putString("quizname", quizname.getText().toString()).commit();
+            jshared.edit().putString("desc", desc.getText().toString()).commit();
+            jshared.edit().putString("amount", amount.getText().toString()).commit();
+            Intent intent = new Intent(inputdisp.this, answerscrn.class);
+            startActivity(intent);
         });
     }
 
@@ -81,14 +59,14 @@ public class inputdisp extends Activity {
 
     @Deprecated
     public int getLocationX(View _v) {
-        int _location[] = new int[2];
+        int[] _location = new int[2];
         _v.getLocationInWindow(_location);
         return _location[0];
     }
 
     @Deprecated
     public int getLocationY(View _v) {
-        int _location[] = new int[2];
+        int[] _location = new int[2];
         _v.getLocationInWindow(_location);
         return _location[1];
     }
@@ -101,7 +79,7 @@ public class inputdisp extends Activity {
 
     @Deprecated
     public ArrayList<Double> getCheckedItemPositionsToArray(ListView _list) {
-        ArrayList<Double> _result = new ArrayList<Double>();
+        ArrayList<Double> _result = new ArrayList<>();
         SparseBooleanArray _arr = _list.getCheckedItemPositions();
         for (int _iIdx = 0; _iIdx < _arr.size(); _iIdx++) {
             if (_arr.valueAt(_iIdx))

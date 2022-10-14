@@ -19,4 +19,13 @@ public class end extends AppCompatActivity {
         Intent intent = new Intent(this, activity_home_screen.class);
         startActivity(intent);
     }
+    @Deprecated
+    public int getDisplayWidthPixels() {
+        return getResources().getDisplayMetrics().widthPixels;
+    }
+
+    @Deprecated
+    public int getDisplayHeightPixels() {
+        return getResources().getDisplayMetrics().heightPixels;
+    }
 }

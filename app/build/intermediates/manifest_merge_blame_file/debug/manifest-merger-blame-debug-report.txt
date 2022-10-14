@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.prgr.quizards.canary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:6:5-43:19
+12        android:allowBackup="true"
+12-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /Users/jaseunda/.gradle/caches/transforms-3/cd33f26b4f6a5be75c2c675ec5e179dc/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.QuizardsAlpha" >
+22-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:14:9-51
+23        <activity
+23-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:16:9-18:40
+24            android:name="com.prgr.quizards.canary.end"
+24-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:17:13-32
+25            android:exported="false" />
+25-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:18:13-37
+26        <activity
+26-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:19:9-21:40
+27            android:name="com.prgr.quizards.canary.answerscrn"
+27-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:20:13-39
+28            android:exported="false" />
+28-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:21:13-37
+29        <activity
+29-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:22:9-24:40
+30            android:name="com.prgr.quizards.canary.loading"
+30-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:23:13-36
+31            android:exported="false" />
+31-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:24:13-37
+32        <activity
+32-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:25:9-27:40
+33            android:name="com.prgr.quizards.canary.question"
+33-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:26:13-37
+34            android:exported="false" />
+34-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:27:13-37
+35        <activity
+35-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:28:9-30:40
+36            android:name="com.prgr.quizards.canary.inputdisp"
+36-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:29:13-38
+37            android:exported="false" />
+37-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:30:13-37
+38        <activity
+38-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:31:9-33:40
+39            android:name="com.prgr.quizards.canary.activity_home_screen"
+39-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:32:13-49
+40            android:exported="false" />
+40-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:33:13-37
+41        <activity
+41-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:34:9-42:20
+42            android:name="com.prgr.quizards.canary.MainActivity"
+42-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:35:13-41
+43            android:exported="true" >
+43-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:36:13-36
+44            <intent-filter>
+44-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:37:13-41:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:38:17-69
+45-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:38:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:40:17-77
+47-->/Users/jaseunda/Downloads/quizards/app/src/main/AndroidManifest.xml:40:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/jaseunda/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/jaseunda/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+53            android:authorities="com.prgr.quizards.canary.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/jaseunda/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/jaseunda/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/jaseunda/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/jaseunda/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/jaseunda/.gradle/caches/transforms-3/112a099502228b2b317b1c79d5f085b0/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jaseunda/.gradle/caches/transforms-3/7cfe2704946b18bb678666b3953b74c4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jaseunda/.gradle/caches/transforms-3/7cfe2704946b18bb678666b3953b74c4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jaseunda/.gradle/caches/transforms-3/7cfe2704946b18bb678666b3953b74c4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>

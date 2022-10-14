@@ -11,4 +11,13 @@ public class loading extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
     }
+    @Deprecated
+    public int getDisplayWidthPixels() {
+        return getResources().getDisplayMetrics().widthPixels;
+    }
+
+    @Deprecated
+    public int getDisplayHeightPixels() {
+        return getResources().getDisplayMetrics().heightPixels;
+    }
 }
