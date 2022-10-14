@@ -19,8 +19,8 @@ public class question extends Activity {
 
 
     private TextView text;
-    private final TextInputEditText inop = findViewById(R.id.inop);
-    private final TextInputEditText ans = findViewById(R.id.ans);
+    private TextInputEditText inop;
+    private TextInputEditText ans;
 
     private SharedPreferences jshared;
 
@@ -33,6 +33,8 @@ public class question extends Activity {
     }
 
     private void initialize(Bundle _savedInstanceState) {
+        inop = findViewById(R.id.inop);
+        ans = findViewById(R.id.ans);
         text = findViewById(R.id.text);
         jshared = getSharedPreferences("jshared", Activity.MODE_PRIVATE);
 

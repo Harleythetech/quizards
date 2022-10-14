@@ -29,7 +29,7 @@ public class answerscrn extends Activity {
     }
 
     private void initialize(Bundle _savedInstanceState) {
-
+        text = findViewById(R.id.text);
         amount = findViewById(R.id.amount);
         jshared = getSharedPreferences("j", Activity.MODE_PRIVATE);
 
