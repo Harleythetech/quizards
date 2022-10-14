@@ -1,21 +1,23 @@
 package com.prgr.quizards.canary;
 
 import android.app.Activity;
-import android.os.*;
-import android.widget.*;
-import android.util.*;
-
-import java.util.*;
-
-import android.widget.TextView;
 import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.util.SparseBooleanArray;
+import android.util.TypedValue;
 import android.view.View;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 public class answerscrn extends Activity {
 
 
     private TextView amount;
-
+    private TextView text;
     private SharedPreferences jshared;
 
     @Override
@@ -36,6 +38,7 @@ public class answerscrn extends Activity {
 
     private void initializeLogic() {
         amount.setText(jshared.getString("amount", ""));
+        text.setText(jshared.getString("question", ""));
     }
 
 
