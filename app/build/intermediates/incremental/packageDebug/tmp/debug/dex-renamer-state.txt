@@ -1,4 +1,4 @@
-#Sat Oct 15 03:37:21 SGT 2022
+#Sat Oct 15 08:01:32 SGT 2022
 base.2=C\:\\Users\\ftaut\\Desktop\\quizards\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
 path.2=2/classes.dex
 base.1=C\:\\Users\\ftaut\\Desktop\\quizards\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

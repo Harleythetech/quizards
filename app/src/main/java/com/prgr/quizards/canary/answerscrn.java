@@ -1,6 +1,7 @@
 package com.prgr.quizards.canary;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.SparseBooleanArray;
@@ -10,15 +11,24 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.widget.AppCompatButton;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Objects;
 import java.util.Random;
 
 public class answerscrn extends Activity {
 
-
+    private HashMap<String, Object> map = new HashMap<>();
     private TextView amount;
     private TextView text;
+    private SharedPreferences jshared2;
     private SharedPreferences jshared;
+    private AppCompatButton btn;
 
     @Override
     protected void onCreate(Bundle _savedInstanceState) {
@@ -26,20 +36,26 @@ public class answerscrn extends Activity {
         setContentView(R.layout.activity_answerscrn);
         initialize(_savedInstanceState);
         initializeLogic();
+        btn = findViewById(R.id.button3);
+        btn.setOnClickListener(v -> gotoback());
     }
-
+    public void gotoback(){
+        Intent intent = new Intent(this, question.class);
+        startActivity(intent);
+    }
     private void initialize(Bundle _savedInstanceState) {
         text = findViewById(R.id.text);
         amount = findViewById(R.id.amount);
         jshared = getSharedPreferences("j", Activity.MODE_PRIVATE);
+        jshared2 = getSharedPreferences("j2", Activity.MODE_PRIVATE);
 
 
     }
 
     private void initializeLogic() {
-        amount.setText(jshared.getString("amount", ""));
-        text.setText(jshared.getString("question", ""));
-
+        map = new Gson().fromJson(jshared2.getString("data", ""), new TypeToken<HashMap<String, Object>>(){}.getType());
+        amount.setText(jshared2.getString("amount", ""));
+        text.setText(Objects.requireNonNull(map.get("question")).toString());
     }
 
 

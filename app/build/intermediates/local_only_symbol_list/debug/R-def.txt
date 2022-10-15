@@ -51,6 +51,7 @@ id textView7
 id textView8
 id textView9
 id time
+id timeolut
 id timeout
 layout activity_answerscrn
 layout activity_end

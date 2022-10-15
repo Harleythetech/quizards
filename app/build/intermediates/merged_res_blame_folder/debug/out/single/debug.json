@@ -36,10 +36,6 @@
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\layout\\activity_inputdisp.xml"
     },
     {
-        "merged": "com.prgr.quizards.canary.app-merged_res-30:/layout_activity_question.xml.flat",
-        "source": "com.prgr.quizards.canary.app-main-32:/layout/activity_question.xml"
-    },
-    {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
     },
@@ -90,6 +86,10 @@
     {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.prgr.quizards.canary.app-merged_res-30:/layout_activity_end.xml.flat",
+        "source": "com.prgr.quizards.canary.app-main-32:/layout/activity_end.xml"
     },
     {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\drawable_rounded_borders.xml.flat",

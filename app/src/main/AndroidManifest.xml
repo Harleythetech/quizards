@@ -20,9 +20,6 @@
             android:name=".answerscrn"
             android:exported="false" />
         <activity
-            android:name=".loading"
-            android:exported="false" />
-        <activity
             android:name=".question"
             android:exported="false" />
         <activity

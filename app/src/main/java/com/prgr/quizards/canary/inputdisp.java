@@ -12,6 +12,8 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import androidx.appcompat.widget.AppCompatButton;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -30,7 +32,14 @@ public class inputdisp extends Activity {
         setContentView(R.layout.activity_inputdisp);
         initialize();
         initializeLogic();
+        AppCompatButton btn2 = findViewById(R.id.button3);
+        btn2.setOnClickListener(v -> gotoback());
     }
+    public void gotoback(){
+        Intent intent = new Intent(this, activity_home_screen.class);
+        startActivity(intent);
+    }
+
 
     private void initialize() {
         quizname = findViewById(R.id.quizname);

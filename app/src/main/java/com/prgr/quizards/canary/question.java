@@ -1,6 +1,7 @@
 package com.prgr.quizards.canary;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.SparseBooleanArray;
@@ -14,6 +15,7 @@ import android.widget.Toast;
 import androidx.appcompat.widget.AppCompatButton;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.gson.Gson;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,6 +28,7 @@ public class question extends Activity {
     private EditText inop;
     private TextInputEditText ans;
     private AppCompatButton btn;
+    private SharedPreferences jshared2;
 
     private SharedPreferences jshared;
 
@@ -35,26 +38,38 @@ public class question extends Activity {
         setContentView(R.layout.activity_question);
         initialize(_savedInstanceState);
         initializeLogic();
+        AppCompatButton btn2 = findViewById(R.id.button3);
+        btn2.setOnClickListener(v -> gotoback());
+
+    }
+    public void gotoback(){
+        Intent intent = new Intent(question.this, activity_home_screen.class);
+        startActivity(intent);
     }
 
     private void initialize(Bundle _savedInstanceState) {
+
         btn = findViewById(R.id.button);
         inop = findViewById(R.id.inop);
         ans = findViewById(R.id.ans);
-        text = findViewById(R.id.text);
+        text = findViewById(R.id.text1);
         jshared = getSharedPreferences("j", Activity.MODE_PRIVATE);
+        jshared2 = getSharedPreferences("j2", Activity.MODE_PRIVATE);
+
 
     }
 
     private void initializeLogic() {
+
+
         text.setText(jshared.getString("amount", ""));
-        jshared.edit().putString("question", inop.getText().toString()).commit();
-        jshared.edit().putString("answer", ans.getText().toString()).commit();
         btn.setOnClickListener(_view -> {
-            map = new HashMap<>();
-            map.put("question", inop.getText().toString());
-            map.put("answer", ans.getText().toString());
-            map.put("amount", jshared.getString("amount", "").concat(""));
+                map = new HashMap<>();
+                map.put("answer", ans.getText().toString());
+                map.put("question", inop.getText().toString());
+                jshared2.edit().putString("data", new Gson().toJson(map)).commit();
+                Intent intent = new Intent(question.this, answerscrn.class);
+                startActivity(intent);
         });
 
     }
