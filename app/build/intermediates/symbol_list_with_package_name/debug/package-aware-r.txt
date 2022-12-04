@@ -3140,7 +3140,6 @@ layout activity_answerscrn
 layout activity_end
 layout activity_home_screen
 layout activity_inputdisp
-layout activity_loading
 layout activity_main
 layout activity_question
 layout custom_dialog

@@ -21,7 +21,7 @@ public class inputdisp extends Activity {
 
     private EditText quizname;
     private EditText desc;
-    private EditText amount;
+    protected EditText amount;
 
 
     private SharedPreferences jshared;
@@ -49,9 +49,10 @@ public class inputdisp extends Activity {
         jshared = getSharedPreferences("j", Activity.MODE_PRIVATE);
 
         button.setOnClickListener(_view -> {
-            jshared.edit().putString("quizname", quizname.getText().toString()).commit();
-            jshared.edit().putString("desc", desc.getText().toString()).commit();
-            jshared.edit().putString("amount", amount.getText().toString()).commit();
+
+                jshared.edit().putString("quizname", quizname.getText().toString()).apply();
+                jshared.edit().putString("desc", desc.getText().toString()).apply();
+                jshared.edit().putString("amount", amount.getText().toString()).apply();
             Intent intent = new Intent(inputdisp.this, question.class);
             startActivity(intent);
         });

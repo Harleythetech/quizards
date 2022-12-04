@@ -18,15 +18,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.QuizardsAlpha" >
         <activity
             android:name="com.prgr.quizards.canary.end"
             android:exported="false" />
         <activity
             android:name="com.prgr.quizards.canary.answerscrn"
-            android:exported="false" />
-        <activity
-            android:name="com.prgr.quizards.canary.loading"
             android:exported="false" />
         <activity
             android:name="com.prgr.quizards.canary.question"

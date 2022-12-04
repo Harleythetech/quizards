@@ -31,7 +31,7 @@
                 android:layout_width="25dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="7dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="7dp"
                 android:layout_weight="0"
@@ -45,7 +45,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
+                android:layout_marginTop="3dp"
                 android:layout_weight="0"
                 android:paddingEnd="10dp"
                 android:text="@string/back"
@@ -82,9 +82,9 @@
 
                 <TextView
                     android:id="@+id/text1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="200dp"
+                    android:layout_marginLeft="150dp"
                     android:text="@string/toans"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
