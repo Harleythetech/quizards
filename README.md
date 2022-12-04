@@ -6,9 +6,9 @@
 
 # Documentation
 > APK Download (Testing Purposes Only)
-- [Alpha Releases](https://github.com/Harleythetech/quizards/releases/tag/Alpha-Build)
-- [Beta Releases]()
-- [Stable Build]()
+- [Stable Build](https://github.com/Harleythetech/quizards/releases/tag/Stable-Build) (Recommended for users)
+- [Beta Releases](https://github.com/Harleythetech/quizards/releases/tag/Beta-Build)  (For Users who want to opt-in for New Features with bugs)
+- [Alpha Releases](https://github.com/Harleythetech/quizards/releases/tag/Alpha-Build) (Warning: For Testing Purposes Only)
 > Minimum Requirements
 - API level 21 
 - Android 5.0 (Initial Release)
