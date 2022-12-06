@@ -12,6 +12,9 @@
 - API level 21 
 - Android 5.0 (Initial Release)
 - 512mb Ram
+> Custom Library Used
+- [Scode Tools](https://github.com/Jaseunda/scode-tools-library)
+- [Android Gif Drawable](https://github.com/koral--/android-gif-drawable)
 > Statement of the Problem
 <p>This study aims to determine the acceptability of Quizards as a review material for all students</p>
 
