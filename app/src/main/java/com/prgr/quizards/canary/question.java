@@ -13,8 +13,9 @@ import androidx.appcompat.widget.AppCompatButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Objects;
+import java.util.Map;
 
 public class question extends Activity {
 
@@ -24,9 +25,9 @@ public class question extends Activity {
     private TextInputEditText ans;
     private AppCompatButton btn;
     private SharedPreferences jshared2;
-
+    private int val;
     private SharedPreferences jshared;
-
+    private ArrayList<>
     @Override
     protected void onCreate(Bundle _savedInstanceState) {
         super.onCreate(_savedInstanceState);
@@ -36,6 +37,7 @@ public class question extends Activity {
         btn = findViewById(R.id.button);
         btn2.setOnClickListener(v -> gotoback());
         btn.setOnClickListener(view -> logicg());
+        val = 0;
 
     }
     public void gotoback(){
@@ -46,6 +48,7 @@ public class question extends Activity {
     private void initializedata(){
         jshared = getSharedPreferences("j", Activity.MODE_PRIVATE);
         jshared2 = getSharedPreferences("j2", Activity.MODE_PRIVATE);
+
     }
     private void logicg() {
         btn = findViewById(R.id.button);
@@ -56,23 +59,25 @@ public class question extends Activity {
         String mount = jshared.getString("amount", "");
         int amounts = Integer.parseInt(mount);
 
-        Toast.makeText(getApplicationContext(), "Debug: entering quest", Toast.LENGTH_SHORT).show();
-
-        for (int i = 1; i < amounts; i++) {
-            //String shite = Integer.toString(qloop);
-            //Toast.makeText(getApplicationContext(), shite, Toast.LENGTH_SHORT).show();
-            if (i == amounts) {
-                Intent intent = new Intent(question.this, answerscrn.class);
-                startActivity(intent);
-            } else{
-                map = new HashMap<>();
-                map.put("answer", Objects.requireNonNull(ans.getText()).toString());
-                map.put("question", inop.getText().toString());
-                jshared2.edit().putString("data", new Gson().toJson(map)).commit();
-
-            }
-
-
+        boolean b = val == amounts;
+        Toast.makeText(getApplicationContext(), "Start", Toast.LENGTH_SHORT).show();
+        if(b){
+            Intent intent = new Intent(question.this, answerscrn.class);
+            startActivity(intent);
+            Toast.makeText(getApplicationContext(), "if", Toast.LENGTH_SHORT).show();
+        }else{
+            map = new HashMap<>();
+            MapList = new ArrayList<>();
+            map.put("answer", ans.getText().toString());
+            map.put("question", inop.getText().toString());
+            Map<ans, inop> map =
+            jshared2.edit().putString("data", new Gson().toJson(map)).commit();
+            val++;
+            String f = Integer.toString(val);
+            Toast.makeText(getApplicationContext(), f, Toast.LENGTH_SHORT).show();
         }
+
     }
+
 }
+
