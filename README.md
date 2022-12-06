@@ -1,8 +1,7 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/51787264/194911622-613ca932-eb49-4388-9682-4e6162a18517.png" width="500" height="200"></p>
+# <p align="center"><img src="https://user-images.githubusercontent.com/51787264/194911622-613ca932-eb49-4388-9682-4e6162a18517.png" width="500" height="200"></p>
 
-### <h1 align="center">Quizards (Alpha)</h1>
-
-<h4>Warning: This app is on still on Experimental stage. Meaning the app is not stable and we are not in anyway liable to any damages done by this app as you agree to use this app even tho it's still in Experimental stage</h4>
+<h3>Quizards (A Collaboration Quiz app made by Researchers at STI and Scode Community)</h3>
+<p>Warning: This app is on still on Experimental stage. Meaning the app is not stable and we are not in anyway liable to any damages done by this app as you agree to use this app even tho it's still in Experimental stage</p>
 
 # Documentation
 > APK Download (Testing Purposes Only)
@@ -33,9 +32,9 @@
 - John Kirshner Pabellon
 - Steven Morada
 - Vince Andrei Sales
-- Vincent Harley R. Jovellano (@Harleythetech - Developer of the app)
+- Vincent Harley R. Jovellano ([@Harleythetech](https://github.com/Harleythetech) - Developer of the app)
 > Contributor (Special thanks to)
-- John Dave Natividad (@Jaseunda - Helped with development of the app)
+- John Dave Natividad ([@Jaseunda](https://github.com/Jaseunda) - Helped with development of the app + Owner of Scode Studio & Scode Community)
 
 ```
   For Removal of content please contact me through the following
