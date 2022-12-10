@@ -1,5 +1,6 @@
 package com.prgr.quizards.canary;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -15,19 +16,19 @@ import com.google.gson.Gson;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
+import java.util.Objects;
+
 
 public class question extends Activity {
 
-    private HashMap<String, Object> map = new HashMap<>();
-    private TextView text;
-    private EditText inop;
-    private TextInputEditText ans;
     private AppCompatButton btn;
     private SharedPreferences jshared2;
     private int val;
     private SharedPreferences jshared;
-    private ArrayList<>
+    private ArrayList<HashMap<String, Object>> listmap = new ArrayList<>();
+    //private ArrayList<String> liststring = new ArrayList<>();
+    private HashMap<String, Object> map = new HashMap<>();
+    @SuppressWarnings("MismatchedQueryAndUpdateOfCollection")
     @Override
     protected void onCreate(Bundle _savedInstanceState) {
         super.onCreate(_savedInstanceState);
@@ -50,11 +51,12 @@ public class question extends Activity {
         jshared2 = getSharedPreferences("j2", Activity.MODE_PRIVATE);
 
     }
+    @SuppressLint("ApplySharedPref")
     private void logicg() {
         btn = findViewById(R.id.button);
-        inop = findViewById(R.id.inop);
-        ans = findViewById(R.id.ans);
-        text = findViewById(R.id.text1);
+        EditText inop = findViewById(R.id.inop);
+        TextInputEditText ans = findViewById(R.id.ans);
+        TextView text = findViewById(R.id.text3);
 
         String mount = jshared.getString("amount", "");
         int amounts = Integer.parseInt(mount);
@@ -62,16 +64,17 @@ public class question extends Activity {
         boolean b = val == amounts;
         Toast.makeText(getApplicationContext(), "Start", Toast.LENGTH_SHORT).show();
         if(b){
+            jshared2.edit().putString("data", new Gson().toJson(listmap)).commit();
             Intent intent = new Intent(question.this, answerscrn.class);
             startActivity(intent);
             Toast.makeText(getApplicationContext(), "if", Toast.LENGTH_SHORT).show();
         }else{
-            map = new HashMap<>();
-            MapList = new ArrayList<>();
-            map.put("answer", ans.getText().toString());
+            map.put("answer", Objects.requireNonNull(ans.getText()).toString());
             map.put("question", inop.getText().toString());
-            Map<ans, inop> map =
-            jshared2.edit().putString("data", new Gson().toJson(map)).commit();
+            map.putAll((listmap).get(0));
+            map.clear();
+            ans.setText(null);
+            inop.setText(null);
             val++;
             String f = Integer.toString(val);
             Toast.makeText(getApplicationContext(), f, Toast.LENGTH_SHORT).show();

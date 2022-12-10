@@ -18,7 +18,6 @@ import com.google.gson.reflect.TypeToken;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Objects;
 import java.util.Random;
 
 public class answerscrn extends Activity {
@@ -55,7 +54,7 @@ public class answerscrn extends Activity {
     private void initializeLogic() {
         map = new Gson().fromJson(jshared2.getString("data", ""), new TypeToken<HashMap<String, Object>>(){}.getType());
         amount.setText(jshared2.getString("amount", ""));
-        text.setText(Objects.requireNonNull(map.get("question")).toString());
+        text.setText(map.get("question").toString());
     }
 
 

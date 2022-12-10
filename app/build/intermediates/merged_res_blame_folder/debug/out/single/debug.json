@@ -1,17 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\drawable_ic_write.xml.flat",
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\drawable\\ic_write.xml"
     },
@@ -20,28 +8,36 @@
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\drawable\\ic_logo.xml"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\layout_activity_loading.xml.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\layout\\activity_loading.xml"
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xxhdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xxhdpi\\ic_logo_round.webp"
     },
     {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\layout_activity_question.xml.flat",
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\layout\\activity_question.xml"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-pngs-25:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xhdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xhdpi\\ic_logo_round.webp"
     },
     {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\layout_activity_inputdisp.xml.flat",
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\layout\\activity_inputdisp.xml"
     },
     {
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-anydpi-v26_ic_logo_round.xml.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-anydpi-v26\\ic_logo_round.xml"
+    },
+    {
         "merged": "com.prgr.quizards.canary.app-merged_res-30:/layout_activity_question.xml.flat",
         "source": "com.prgr.quizards.canary.app-main-32:/layout/activity_question.xml"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.prgr.quizards.canary.app-merged_res-30:/layout_activity_inputdisp.xml.flat",
+        "source": "com.prgr.quizards.canary.app-main-32:/layout/activity_inputdisp.xml"
+    },
+    {
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-mdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-mdpi\\ic_logo_round.webp"
     },
     {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\layout_activity_main.xml.flat",
@@ -64,16 +60,24 @@
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "com.prgr.quizards.canary.app-merged_res-30:/layout_activity_answerscrn.xml.flat",
+        "source": "com.prgr.quizards.canary.app-main-32:/layout/activity_answerscrn.xml"
+    },
+    {
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xxhdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xxhdpi\\ic_logo.webp"
+    },
+    {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\drawable-v24_giphy.gif.flat",
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\drawable-v24\\giphy.gif"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-mdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-mdpi\\ic_logo.webp"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xxxhdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xxxhdpi\\ic_logo_round.webp"
     },
     {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\layout_activity_end.xml.flat",
@@ -84,12 +88,12 @@
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\layout\\activity_home_screen.xml"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-hdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-hdpi\\ic_logo_round.webp"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.prgr.quizards.canary.app-merged_res-30:/layout_activity_end.xml.flat",
+        "source": "com.prgr.quizards.canary.app-main-32:/layout/activity_end.xml"
     },
     {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\drawable_rounded_borders.xml.flat",
@@ -100,24 +104,16 @@
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\drawable\\ic_writedrk.xml"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\drawable-v24_checked.gif.flat",
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\drawable-v24\\checked.gif"
-    },
-    {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-hdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-hdpi\\ic_logo.webp"
     },
     {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\drawable-v24_bgh2.png.flat",
@@ -128,11 +124,23 @@
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xhdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xhdpi\\ic_logo.webp"
+    },
+    {
         "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\layout_activity_answerscrn.xml.flat",
         "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\layout\\activity_answerscrn.xml"
     },
     {
-        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-anydpi-v26_ic_logo.xml.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-anydpi-v26\\ic_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-merged_res-30:\\mipmap-xxxhdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\ftaut\\.gradle\\daemon\\7.3.3\\com.prgr.quizards.canary.app-main-32:\\mipmap-xxxhdpi\\ic_logo.webp"
     }
 ]
